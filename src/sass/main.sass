@@ -1,0 +1,128 @@
+@import _mixins
+
+//----------------------------------
+// DEV
+//----------------------------------
+.chromeperfectpixel-initial-block iframe,
+#chromeperfectpixel-supported-by
+	display: none !important
+#__bs_notify__
+	display: none !important
+	opacity: 0 !important
+
+//----------------------------------
+// END DEV
+//----------------------------------
+
+
+body
+	// &::-webkit-scrollbar
+
+
+//----------------------------------
+// TEST
+//----------------------------------
+section.test-block
+	margin: 100px 0
+//----------------------------------
+// END TEST
+//----------------------------------
+
+.main-display 
+	background: url(../img/content/main-bg.jpg) 50% 50% no-repeat
+	background-size: cover
+	padding: 150px 0
+	h1
+		color: #fff
+		text-transform: uppercase
+		font-size: 3em
+		line-height: 1.4em
+		text-align: center
+	.order-now
+		padding-left: 540px
+		position: relative
+		.label
+			position: absolute
+			top: 0
+			left: 0
+		p
+			font-size: 1.5em
+			color: #fff
+			text-transform: uppercase
+
+.advantages-display
+	h2
+		text-align: center
+	.advantages-list
+		text-align: center
+		margin-top: 60px
+		.image-holder
+			height: 250px
+			width: 250px
+			margin: 0 auto
+			margin-bottom: 10px
+		p
+			max-width: 250px
+			display: inline-block
+.how-it-works
+	background: #f9eeee
+	text-align: center
+	.image-holder
+		margin-top: 50px
+.start-order
+	text-align: center
+	background: #b9b7bb
+
+
+.info-block
+	padding: 0
+	background: #eeeff3
+	.description
+		padding: 20px
+		display: inline-block
+		vertical-align: top
+		padding-top: 80px
+		background: url(../img/content/main-bg2.jpg) 50% 50% no-repeat
+		background-size: cover
+		position: relative
+		&:before
+			content: ''
+			position: absolute
+			top: 30px
+			left: 20px
+			height: 5px
+			width: 40px
+			background: #6d6d6d
+	.facts
+		display: inline-block
+		padding: 20px
+		li
+			position: relative
+			padding-left: 100px
+			margin-bottom: 150px
+			&:last-child
+				margin-bottom: 0
+			.image-holder
+				width: 60px
+				height: 60px
+				position: absolute
+				top: 0
+				left: 0
+			.big
+				font-size: 35px
+				color: #5a5959
+
+.spheres-list
+	margin-top: 90px
+	li
+		position: relative
+		height: 100px
+		padding-left: 130px
+		margin-bottom: 30px
+
+		.image-holder
+			position: absolute
+			top: -37px
+			left: 0
+			width: 100px
+			height: 100px
